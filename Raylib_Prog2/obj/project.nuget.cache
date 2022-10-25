@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9onPkQzV2DE3KYUFUmwBa46ycTSOmQrfY9zx/lXQXlScPrAvoHiL3FcLWwMLU9ai/YazDz0O0smb+x9oKlp8ng==",
+  "dgSpecHash": "shhhbxcGDG+vnMbWCACqYpJIKV6ZJQ/HA46o+fDNVAll8AIfb3JDi3cQnTkRuRLrnKhOI2Q4d+NIaAOwm9T2+Q==",
   "success": true,
   "projectFilePath": "c:\\Users\\emsgard.johan\\Programering 2\\Raylib_Prog2\\Raylib_Prog2\\Raylib_Prog2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\emsgard.johan\\.nuget\\packages\\raylib-cs\\4.2.0.1\\raylib-cs.4.2.0.1.nupkg.sha512",
+    "C:\\Users\\emsgard.johan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
