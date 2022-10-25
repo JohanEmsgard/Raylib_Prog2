@@ -12,7 +12,19 @@ public class Avatar
 
     public Avatar()
     {
-        
+        sprite = Raylib.LoadTexture("sceptile.png");
+        rect = new Rectangle(0,0, sprite.width, sprite.height);
+
+    }
+
+    public void Draw()
+    {
+        Raylib.DrawTexture(
+            sprite, 
+           (int) rect.x,
+            (int)rect.y,
+            Color.BLUE
+        );
     }
     
 }

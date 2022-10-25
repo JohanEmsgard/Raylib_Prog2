@@ -3,6 +3,8 @@
 Raylib.InitWindow(900,700, "Bäst");
 Raylib.SetTargetFPS(60);
 
+Avatar Scepitle = new Avatar();
+
 while (!Raylib.WindowShouldClose())
 {
 
@@ -10,6 +12,7 @@ while (!Raylib.WindowShouldClose())
     //Grafik
     Raylib.BeginDrawing();
     Raylib.ClearBackground(Color.BLUE);
+    Scepitle.Draw();
 
 
 
