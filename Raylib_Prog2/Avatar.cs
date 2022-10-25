@@ -3,12 +3,10 @@ using System;
 public class Avatar
 {
     //Postion
-    //Bild
-    //Movement
-
-
     private Rectangle rect;
     private Texture2D sprite;
+
+    public float speed = 5f;
 
     public Avatar()
     {
@@ -17,14 +15,35 @@ public class Avatar
 
     }
 
+    //Movement
+    public void Update()
+    {
+        if (Raylib.IsKeyDown(KeyboardKey.KEY_RIGHT))
+        {
+            rect.x += speed;
+        }
+        if (Raylib.IsKeyDown(KeyboardKey.KEY_LEFT))
+        {
+            rect.x -= speed;
+
+        }
+        if (Raylib.IsKeyDown(KeyboardKey.KEY_UP))
+        {
+            rect.y -= speed;
+        }
+        if (Raylib.IsKeyDown(KeyboardKey.KEY_DOWN))
+        {
+            rect.y += speed;
+        }
+
+    }
+
+    //Bild
     public void Draw()
     {
-        Raylib.DrawTexture(
-            sprite, 
-           (int) rect.x,
-            (int)rect.y,
-            Color.BLUE
-        );
+        Raylib.DrawTexture(sprite, (int) rect.x,(int)rect.y,Color.WHITE);
     }
+
+
     
 }

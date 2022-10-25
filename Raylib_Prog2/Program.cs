@@ -9,9 +9,12 @@ while (!Raylib.WindowShouldClose())
 {
 
     //Logik
+    Scepitle.Update();
+
+
     //Grafik
     Raylib.BeginDrawing();
-    Raylib.ClearBackground(Color.BLUE);
+    Raylib.ClearBackground(Color.WHITE);
     Scepitle.Draw();
 
 
