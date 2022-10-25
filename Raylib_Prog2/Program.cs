@@ -1,4 +1,4 @@
-﻿using Raylib_cs;
+﻿global using Raylib_cs;
 
 Raylib.InitWindow(900,700, "Bäst");
 Raylib.SetTargetFPS(60);
