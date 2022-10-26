@@ -16,6 +16,7 @@ public class Avatar
     }
 
     //Movement
+    //Metod
     public void Update()
     {
         if (Raylib.IsKeyDown(KeyboardKey.KEY_RIGHT))
