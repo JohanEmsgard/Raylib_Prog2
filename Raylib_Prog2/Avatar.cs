@@ -41,6 +41,12 @@ public class Avatar
             Raylib.DrawCircle((int)rect.x,(int)rect.y,50,Color.GREEN);
         }
 
+        if (Raylib.IsKeyDown(KeyboardKey.KET_S))
+        {
+            sprite = Raylib.LoadTexture("SceptileAttack.png")
+
+        }
+
     }
 
     //Bild
