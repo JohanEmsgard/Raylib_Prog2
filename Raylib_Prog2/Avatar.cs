@@ -36,6 +36,11 @@ public class Avatar
             rect.y += speed;
         }
 
+        if (Raylib.IsKeyDown(KeyboardKey.KEY_A))
+        {
+            Raylib.DrawCircle((int)rect.x,(int)rect.y,50,Color.GREEN);
+        }
+
     }
 
     //Bild
