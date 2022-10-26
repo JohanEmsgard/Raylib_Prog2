@@ -44,7 +44,7 @@ public class Avatar
 
         if (Raylib.IsKeyDown(KeyboardKey.KEY_S))
         {
-            sprite = Raylib.LoadTexture("SceptileAttack.png");
+            sprite = Raylib.LoadTexture("mega-sceptile.png");
             rect = new Rectangle((int)rect.x,(int)rect.y,sprite.width,sprite.height);
 
         }
