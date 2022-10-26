@@ -41,9 +41,10 @@ public class Avatar
             Raylib.DrawCircle((int)rect.x,(int)rect.y,50,Color.GREEN);
         }
 
-        if (Raylib.IsKeyDown(KeyboardKey.KET_S))
+        if (Raylib.IsKeyDown(KeyboardKey.KEY_S))
         {
-            sprite = Raylib.LoadTexture("SceptileAttack.png")
+            sprite = Raylib.LoadTexture("SceptileAttack.png");
+            rect = new Rectangle((int)rect.x,(int)rect.y,sprite.width,sprite.height);
 
         }
 
